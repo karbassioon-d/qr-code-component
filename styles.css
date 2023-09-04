@@ -1,0 +1,51 @@
+html {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: rgb(213,225,239);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    border-radius: 15px 15px 15px 15px;
+    margin: 15px;
+    width: 310px;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
+h2 {
+    color: rgb(46,58,90);
+    font-weight: 700;
+    margin: 0;
+}
+
+.outer-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    width: 340px;
+    /* height: 550px; */
+}
+
+.bottom-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    width: 266px;
+    margin-bottom: 20px;
+}
